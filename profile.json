@@ -1,0 +1,36 @@
+{
+  "login": "boldentura",
+  "name": ["Sergey", "Bolden"],
+  "kicker": "@boldentura · Russia",
+  "tagline": "Founder of Netplan LLC.",
+  "portrait": "assets/portrait.png",
+  "portrait_pixels": 23,
+  "tiles": [
+    { "label": "Threads", "title": "@boldentura", "sub": "threads.com/@boldentura", "url": "https://www.threads.com/@boldentura" },
+    { "label": "LinkedIn", "title": "boldentura", "sub": "linkedin.com/in/boldentura", "url": "https://www.linkedin.com/in/boldentura/" },
+    { "label": "Company", "title": "Netplan LLC", "sub": "github.com/bolden-dev", "url": "https://github.com/bolden-dev" }
+  ],
+  "coding_title": ["What I'm", "coding"],
+  "featured": [
+    {
+      "name": "netplan-api",
+      "description": "Backend and CRM for Netplan, a contact management and networking platform.",
+      "language": "Python"
+    },
+    {
+      "name": "netplan-events-api",
+      "description": "Backend for a community events forum, with web and Android clients.",
+      "language": "Python"
+    },
+    {
+      "name": "netplan-guards",
+      "description": "Control layers for coding agents: a pre-tool guard, a permissions audit and a stop gate.",
+      "language": "Python"
+    }
+  ],
+  "links": [
+    { "label": "threads", "url": "https://www.threads.com/@boldentura" },
+    { "label": "linkedin", "url": "https://www.linkedin.com/in/boldentura/" },
+    { "label": "netplan llc", "url": "https://github.com/bolden-dev" }
+  ]
+}

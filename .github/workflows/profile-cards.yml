@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [profile.json, scripts/**, assets/**, fonts/src/**]
+    paths: [profile.json, scripts/**, assets/**, fonts/src/**, .github/workflows/**]
 
 permissions:
   contents: write
@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main # latest main, not the trigger SHA: a queued run must see the previous run's commit
 
       - uses: actions/setup-python@v5
         with:
